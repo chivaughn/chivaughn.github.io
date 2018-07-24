@@ -1,0 +1,3 @@
+#!/bin/bash
+yes | cp -R ~/Documents/personal-site ~/portfolio-site-v1
+
