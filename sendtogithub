@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /portfolio-site-v1
+git status
+git add .
+git commit -m "FROM UBUNTU"
+git push
