@@ -8,6 +8,10 @@
   left: 0;
   right: 0;
   z-index: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .same-as-bg {
@@ -28,12 +32,7 @@
   font-weight: 500;
 }
 
-.background_:before {
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    width: 15%; /* Change this to whatever width you want. */
-    padding-top: 24px;
-}
+
 
 .info_ {
   text-align: left;
@@ -45,12 +44,10 @@
     padding-left: 24px;
 
   }
-  .background_:before {
-      content: ""; /* This is necessary for the pseudo element to work. */
-      display: block; /* This will put the pseudo element on its own line. */
-      width: 100%; /* Change this to whatever width you want. */
-      padding-top: 24px;
-  }
+  .container{
+    top: 0;
+}
+
   .img-wrap {
     display: none;
   }
@@ -88,4 +85,11 @@
     display: inline-block;
     font-weight: 500;
     opacity: .7;
+}
+
+
+.waves-effect.waves-blue .waves-ripple {
+ /* The alpha value allows the text and background color
+ of the button to still show through. */
+  background-color: rgba(25, 118,	210, 0.65);
 }
