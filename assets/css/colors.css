@@ -19,11 +19,11 @@
 }
 
 .img-wrap {
-  padding-right: 24px;
+  padding-right: 0px;
 }
 .img-wrap img{
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 160px;
+  max-height: 160px;
   border-radius: 50%;
   border: 4px solid white;
 }
